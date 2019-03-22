@@ -4,7 +4,7 @@
     "description": "Replaces the YouTube miniplayer button with the PiP button.",
     "content_scripts": [
       {
-        "matches": ["*://*.youtube.com/*"],
+        "matches": ["*://*.youtube.com/watch*"],
         "js": ["script.js"]
       }
     ],
