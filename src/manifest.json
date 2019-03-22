@@ -1,0 +1,12 @@
+{
+    "name": "Youtube PiP button",
+    "version": "1.0",
+    "description": "Replaces the YouTube miniplayer button with the PiP button.",
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["script.js"]
+      }
+    ],
+    "manifest_version": 2
+  }
